@@ -17,7 +17,7 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
   
 ## How to Access
 
-You can view the live version of the portfolio [here]. To clone this repository locally: git clone ""
+You can view the live version of the portfolio [here]. To clone this repository locally: ' git clone https://github.com/Palak21012005/Portfolio.git '
 
 
 ## Setup Instructions
