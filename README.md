@@ -1,4 +1,4 @@
-## Portfolio Website
+# Portfolio Website
 
 Welcome to my personal portfolio website! This website showcases my projects, skills, and experience as a computer science student. It serves as an interactive platform for visitors to explore my work and get to know more about me.
 
