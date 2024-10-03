@@ -1,4 +1,4 @@
-Portfolio Website
+## Portfolio Website
 
 Welcome to my personal portfolio website! This website showcases my projects, skills, and experience as a computer science student. It serves as an interactive platform for visitors to explore my work and get to know more about me.
 
@@ -12,7 +12,6 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 ## Technologies Used
 
 - **HTML5 & CSS3**: For creating the structure and styling the website.
-- **JavaScript**: Adding interactivity and functionality to various parts of the website.
 - **Git & GitHub**: Version control and hosting the website.
   
 ## How to Access
