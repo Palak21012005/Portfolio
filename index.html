@@ -1,68 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palak Singh - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hello, I'm Palak Singh, a passionate computer science student.</p>
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm currently pursuing a degree in Computer Science and learning web development. I love exploring new technologies and solving problems through code.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of the project and the technologies used.</p>
-            <a href="project1-link">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of the project and the technologies used.</p>
-            <a href="project2-link">View Project</a>
-        </div>
-        
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-            <li>Python</li>
-            <li>DSA</li>
-            
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Palak Singh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-    </section>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Hero Section with GIF Background -->
+  <section id="home" class="d-flex align-items-center justify-content-center text-center" style="height: 100vh;">
+    <div class="image-background"></div>
+    <div class="container d-flex align-items-center justify-content-between">
+      <img src="https://i.ibb.co/m4jgwzR/profile-pic.jpg" alt="Palak Singh" class="rounded-circle img-fluid profile-img">
+      <div class="text-start ms-4">
+        <h1 id="name" class="display-1">Palak Singh</h1>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+<section id="about" class="about-section p-5 text-center text-light">
+  <div class="container">
+    <h2 class="display-4">About Me</h2>
+    <p class="lead mt-3">
+      Hi, I'm Palak Singh, a passionate 2nd-year Computer Science student with a keen interest in web development, data structures, and algorithms. 
+      I love building responsive websites and diving deep into programming languages like C++, Python, and JavaScript. I’m always eager to learn new 
+      technologies and take on challenges. Check out my projects below!
+    </p>
+  </div>
+</section>
+  
+  
+  <section id="projects" class="container my-5">
+    <h2 class="text-center">My Projects</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-3">
+          <div class="card-body">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills, projects, and achievements.</p>
+            <a href="https://github.com/Palak21012005/Portfolio.git" class="btn project-btn">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-3">
+          <div class="card-body">
+            <h3>Beauty Product E-Commerce Website</h3>
+            <p>A complete e-commerce site for women's beauty products with product listings and details.</p>
+            <a href="https://github.com/Palak21012005/ECOMMERCE.git" class="btn project-btn">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="skill-section">
+    <h2>My Skills</h2>
+    <div class="skill-buttons">
+      <button class="skill-btn">C++</button>
+      <button class="skill-btn">Python</button>
+      <button class="skill-btn">HTML</button>
+      <button class="skill-btn">CSS</button>
+      <button class="skill-btn">JavaScript</button>
+      <button class="skill-btn">DSA</button>
+    </div>
+  </section>
+  
+  <section id="handles" class="container my-5">
+    <h2 class="text-center">Find me on</h2>
+    <div class="text-center">
+      <a href="https://github.com/Palak21012005" target="_blank">GitHub</a>
+      <a href="https://leetcode.com/u/palak2105/" target="_blank">LeetCode</a>
+      <a href="https://www.hackerrank.com/profile/palakk_singh2105" target="_blank">HackerRank</a>
+    </div>
+  </section>
+  <!-- Contact Section -->
+<section id="contact" class="contact-section text-center text-light p-5">
+  <div class="container">
+    <h2 class="display-4">Contact Me</h2>
+    <p class="lead mt-3">Feel free to reach out through email or connect with me on LinkedIn.</p>
+    <div class="contact-info mt-4">
+      <p><strong>Email:</strong> <a href="mailto:palakk.singh2105@gmail.com" class="text-light">palakk.singh2105@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/palak-singh" class="text-light" target="_blank">linkedin.com/in/palak-singh</a></p>
+    </div>
+  </div>
+</section>
 
-    
 </body>
 </html>
